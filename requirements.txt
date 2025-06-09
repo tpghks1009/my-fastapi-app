@@ -1,26 +1,19 @@
-# FastAPI 및 서버
-:contentReference[oaicite:3]{index=3}
-:contentReference[oaicite:4]{index=4}
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
 
-# LangChain 관련
-:contentReference[oaicite:5]{index=5}
-:contentReference[oaicite:6]{index=6}
-:contentReference[oaicite:7]{index=7}
+langchain==0.1.15
+langchain-openai==0.1.1
+langchain-community==0.0.28
 
-# 벡터 DB
-:contentReference[oaicite:8]{index=8}
+faiss-cpu==1.7.4
 
-# Jina 최신 안정 버전 및 reranker
-:contentReference[oaicite:9]{index=9}
-:contentReference[oaicite:10]{index=10}
+jina==3.34.0
+jina-hub[jina-reranker-v2-base-multilingual]==3.15.2
 
-# 딥러닝 패키지
-:contentReference[oaicite:11]{index=11}
-:contentReference[oaicite:12]{index=12}
-:contentReference[oaicite:13]{index=13}
-:contentReference[oaicite:14]{index=14}
-:contentReference[oaicite:15]{index=15}
-:contentReference[oaicite:16]{index=16}
+torch==2.2.2
+transformers==4.41.1
+accelerate==0.30.1
+einops==0.9.0
+ninja==1.11.1
 
-# YAML 지원
-:contentReference[oaicite:17]{index=17}
+pyyaml==6.0.1
