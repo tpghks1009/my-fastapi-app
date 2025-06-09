@@ -8,7 +8,7 @@ langchain-community==0.0.28
 faiss-cpu==1.7.4
 
 jina==3.34.0
-jina-hub[jina-reranker-v2-base-multilingual]==3.15.2
+jina[hub]==3.34.0
 
 torch==2.2.2
 transformers==4.41.1
